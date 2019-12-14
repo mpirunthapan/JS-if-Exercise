@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+function color(num) {
+  if (num<0 || num>30) {
+  return "It is not a correct colour option.";
+} else if (num<10) {
+  return "Blue";
+} else if (num>20) {
+  return "Red";
+}else {
+  return "Green";
+}
+}
+document.getElementById("demo").innerHTML=color(25);
+</script>
+</body>
+</html>

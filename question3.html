@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+function assignGrade(num) {
+  if (num>75) {
+  return "A";
+} else if (num>60) {
+  return "B";
+} else if (num>45) {
+  return "C";
+}else {
+  return "F";
+}
+}
+document.getElementById("demo").innerHTML=assignGrade(67);
+</script>
+</body>
+</html>
